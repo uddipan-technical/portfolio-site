@@ -13,28 +13,27 @@ const serviceData = [
     {
         siteTitle:"Fixing Errors",
         icon: "far fa-code",
-        Description:"I am expart on creating woocommerce site.If tou wanted to creata with React and even without code I can do."
+        Description:"I will fix your any wordPress problems, related to themes, plugin, css, javascript and react.I can also handle backend error."
     },
     {
         siteTitle:"Wev Design",
         icon: "far fa-code",
-        Description:"I am expart on creating woocommerce site.If tou wanted to creata with React and even without code I can do."
+        Description:"I will create and convert psd template to html.It will be pixel perfect design and fully responsive website."
     },
     {
         siteTitle:"Web Develoment",
-        siteTitle:"WordPress",
         icon: "far fa-code",
-        Description:"I am expart on creating woocommerce site.If tou wanted to creata with React and even without code I can do."
+        Description:"Create your website with Bootstrap. I can developed your site using JavaScript and React"
     },
     {
         siteTitle:"Landing Page",
         icon: "far fa-code",
-        Description:"I am expart on creating woocommerce site.If tou wanted to creata with React and even without code I can do."
+        Description:"Looking for someone for a landing page. I will create you a eye-catching landing page with a professional touch with any kind of requirements."
     },
     {
-        siteTitle:"PHD to React",
+        siteTitle:"Clone with React",
         icon: "far fa-code",
-        Description:"I am expart on creating woocommerce site.If tou wanted to creata with React and even without code I can do."
+        Description:"I Cloned any site 100% cloning with react. Just send me your choice web site I will clone it same to same.  ."
     },
 ]
 

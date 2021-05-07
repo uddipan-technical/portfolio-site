@@ -48,6 +48,7 @@ element.style {
 }
 
 .serviceData {
+   height: 250px;
    border-radius: 3%;
    background: #fff;
    box-shadow: 0 4px 6px rgb(0 0 0 / 30%);
@@ -62,3 +63,10 @@ element.style {
  .serviceData p{
     color:#000;
  }
+
+ @media screen and (max-width: 550px) {
+   .serviceData{
+      margin-left: 10px;
+      width:380px;
+   }
+}
