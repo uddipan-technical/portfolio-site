@@ -1,0 +1,22 @@
+
+.text-section {
+   padding: 30px;
+}
+.fa-check-circle.fa-w-16 {
+   color: #fff;
+}
+.about-title {
+   position: absolute;
+   left: 38%;
+   top: 89px;
+}
+
+@media screen and (max-width: 550px) {
+   
+   .top-banner {
+      height: 100%;
+   }
+   .text-section {
+      text-align: center;
+   }
+}

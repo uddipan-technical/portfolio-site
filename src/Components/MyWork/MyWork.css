@@ -1,0 +1,81 @@
+
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    left: -20px;
+}
+.skill {
+    margin-left: 2px;
+    padding: 10px;
+    background-color: #013E42;
+    border-radius: 2px;
+}
+.skill ul{
+}
+.liveLink {
+    text-decoration: none;
+    background-color: antiquewhite;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    left: 20px;
+    width: 150px;
+    top: 2px;
+    padding-top: 2px;
+}
+.projects li {
+    list-style-type: none;
+    color: #fff;
+    height: 27px;
+    padding: 1px;
+    background-color: green;
+    border-radius: 5px;
+    margin: 3px;
+    text-align: center;
+}
+.projects li:hover{
+   background-color:#fff;
+   color:#000;
+}
+.work-img{
+    box-shadow: 0 4px 6px rgb(0 0 0 / 30%);
+    transition: all .2s linear;
+}
+.work-img:hover{
+    transform: scale(1.01);
+    z-index: 10;
+    box-shadow: 0 10px 20px rgba(0,0,0,.7);
+  }
+
+
+.card {
+   color: white;
+   background-color: #444444;
+   margin-top: 10px;
+   transition: 0.5s all ease;
+}
+
+.portfolio-Section {
+    width: 351px;
+    float: left;
+    margin-right: 5px;
+    margin-top:5px;
+}
+svg.svg-inline--fa.fa-check-circle.fa-w-16 {
+    color: #239F4B;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 550px) {
+    .portfolio-Section {
+        width: 450px;
+    }
+    .port-img{
+        width:450px;
+    }
+    .work-img{
+        width:100%;
+    }
+}

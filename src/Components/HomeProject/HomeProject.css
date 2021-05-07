@@ -1,0 +1,17 @@
+.explore-link:hover {
+   color: white;
+}
+.home-card {
+   transform: skew(20deg);
+   animation: shake 2s infinite;
+   animation-direction: alternate;
+}
+
+@keyframes shake {
+   0% {
+      transform: skewY(2deg);
+   }
+   100% {
+      transform: skewY(-2deg);
+   }
+}

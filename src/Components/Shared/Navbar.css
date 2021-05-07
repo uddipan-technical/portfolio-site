@@ -1,0 +1,19 @@
+.nav-link:hover {
+   border-bottom: 2px solid #daa520;
+}
+.resume-link {
+   border: 2px solid #daa520;
+   border-radius: 7px;
+}
+.resume-link:hover {
+   border: 2px solid green;
+}
+
+
+
+@media screen and (max-width: 550px) {
+   .nav-item, .nav-fill.nav-link {
+      width:100px;
+      margin-top: 5px;
+   }
+}

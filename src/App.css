@@ -1,0 +1,64 @@
+body {
+   background: linear-gradient(60deg, #00000f 40%, #013e42 60%);
+}
+a {
+   color: white;
+   text-decoration: none;
+}
+a:hover {
+   color: #daa520;
+}
+.scrollbar
+{
+	overflow-y: scroll;
+	margin-bottom: 25px;
+   height: 550px;
+}
+h4{
+   color:goldenrod;
+}
+h5{
+   color:#fff;
+}
+
+.force-overflow
+{
+	min-height: 450px;
+}
+
+.servise {
+   width: 330px;
+   display: inline-block;
+   float: left;
+   padding: 10px;
+   border: 1px solid #DEE1E6;
+   height: 280px;
+}
+
+element.style {
+}
+.fa-code.fa-w-20 {
+   margin-top: 5px;
+   width: 114px;
+   height: 100px;
+   background-color: #2E3F08;
+   border-radius: 18%;
+   color: #0D9955;
+   padding: 27px;
+}
+
+.serviceData {
+   border-radius: 3%;
+   background: #fff;
+   box-shadow: 0 4px 6px rgb(0 0 0 / 30%);
+   transition: all .2s linear;
+   float: left;
+}
+.serviceData:hover{
+   transform: scale(1.01);
+   z-index: 10;
+   box-shadow: 0 10px 20px rgba(0,0,0,.7);
+ }
+ .serviceData p{
+    color:#000;
+ }

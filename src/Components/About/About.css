@@ -1,0 +1,80 @@
+.experience-data{
+   border:1px solid #39555B;
+}
+label{
+   color: white;
+}
+.col-hight{
+   height:120px;
+}
+
+.duration {
+   border: 1px solid #1DBA5F;
+   padding: 3px;
+   font-size: 12px;
+   width: 120px;
+   text-align: center;
+   color: #23A455;
+   background-color: #013E42;
+}
+.education{
+   height:150px;
+}
+.logo img {
+   margin-top: -84px;
+}
+.logo1 img {
+   width: 113px;
+   padding-left: 30px;
+}
+.logo2 {
+   margin-right: 32px;
+   margin-top: -19px;
+   width: 102px;
+}
+.logo2 img {
+   margin-top: 9px;
+   width: 126px;
+   margin-left: 40px;
+   background-color: aliceblue;
+   border-radius: 10px;
+}
+.hero img {
+   width: 117px;
+   height: 32px;
+}
+
+element.style {
+}
+ul.d-flex {
+}
+ul.d-flex {
+    margin-left: -32px;
+    width: 321px;
+}
+
+ul h6{
+   margin-right: 10px;
+   color:#fff;
+   font-size: 50px;
+   height: 100px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 550px) {
+   .text-section{
+      margin-left:-60px;
+      width:600px;
+      padding:0 auto;
+   }
+   .bar{
+      flex-direction: column;
+   }
+   .right-bar{
+   }
+}
+

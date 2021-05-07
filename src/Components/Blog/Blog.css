@@ -1,0 +1,18 @@
+.explore-btn {
+   background-color: #212529;
+   color: white;
+}
+.explore-btn:hover {
+   background-color: #daa023;
+}
+.container{
+
+}
+
+
+
+@media screen and (max-width: 550px) {
+   .container{
+      flex-direction: column;
+   }
+ }

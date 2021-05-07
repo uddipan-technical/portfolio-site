@@ -1,0 +1,21 @@
+.social {
+   position: fixed;
+   top: 50%;
+   right: 0px;
+   border-radius: 50px;
+   transform: translateY(-50%);
+}
+.social a {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 60px;
+   height: 60px;
+   padding: 0px;
+   margin: 0px;
+   font-size: 30px;
+   font-weight: bolder;
+   line-height: 0px;
+   background-color: #212529;
+   box-shadow: 2px 2px 12px rgba(88, 167, 153, 0.2);
+}
