@@ -12,12 +12,12 @@ import { Link } from 'react-router-dom';
 const AttachNav = () => {
    return (
       <div className="social">
-         <a href="https://github.com/arpan-jo" target="_blank" rel="noreferrer">
+         <a href="https://github.com/uddipan01" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faGithub} />
          </a>
          {'  '}
          <a
-            href="https://www.linkedin.com/in/arpan-chakma-jo/"
+            href="#"
             target="_blank"
             rel="noreferrer"
          >
@@ -25,7 +25,7 @@ const AttachNav = () => {
          </a>
          {'  '}
          <a
-            href="https://www.facebook.com/Arpan.Chakma.Jo"
+            href="#"
             target="_blank"
             rel="noreferrer"
          >
