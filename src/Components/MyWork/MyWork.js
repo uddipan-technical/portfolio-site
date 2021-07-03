@@ -8,6 +8,8 @@ import transport from '../../Photos/transport.png';
 import hungry from '../../Photos/hungry.png';
 import cleaning from '../../Photos/cleaning.png';
 import portfolio from '../../Photos/portfolio.png';
+import redux from '../../Photos/redux.png';
+import blog from '../../Photos/bolg.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './MyWork.css';
 import Zoom from 'react-reveal/Zoom';
@@ -94,6 +96,20 @@ const workData = [
    skill9:"CORS", skill9:"Github", skills:"FireBase",
    img: cleaning, url:"https://complete-client-website.web.app/"
 },
+{ title:"Movee", skill1:"HTML", skill2:"CSS3",
+skill3:"Bootstrap", skill4:"JavaScript",
+skill5:"React", skill6:"Node.Js",
+skill7:"Mongodb", skill8:"Express",
+skill9:"CORS", skill9:"Github", skills:"FireBase",
+img: redux, url:"https://my-reactredux.web.app/"
+},
+{ title:"Blogs", skill1:"HTML", skill2:"CSS3",
+skill3:"Bootstrap", skill4:"JavaScript",
+skill5:"React", skill6:"Node.Js",
+skill7:"Mongodb", skill8:"Express",
+skill9:"CORS", skill9:"Github", skills:"FireBase",
+img: blog, url:"https://my-blogs-site.web.app/"
+}
    ]
 
 const MyWork = () => {
